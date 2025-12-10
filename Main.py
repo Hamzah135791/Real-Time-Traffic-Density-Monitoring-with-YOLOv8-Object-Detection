@@ -62,8 +62,7 @@ class FrameReaderThread(threading.Thread):
         import subprocess
 
         cmd = [
-            # "ffmpeg",
-            r"C:\Users\hamza\computer vision\ffmpeg-master-latest-win64-gpl-shared\ffmpeg-master-latest-win64-gpl-shared\bin\ffmpeg.exe",
+            "ffmpeg",
             "-fflags", "nobuffer",
             "-flags", "low_delay",
             "-strict", "experimental",
